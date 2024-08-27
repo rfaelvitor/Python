@@ -248,7 +248,42 @@
 # 3) Faça um algoritmo que leia o nome, o sexo e o estado civil de uma pessoa. Caso sexo seja “F” e estado civil seja “CASADA”, solicitar o tempo de casada (anos).
 
 
-
+nome = input("Informe o seu nome: ")
+sexo = input("Informe o seu sexo (F ou H): ")
+estado_civil = input("Informe seu estado civil: ")
+ 
+ 
+if sexo in ["F" , "f"] and estado_civil in ["casada" , "Casada" , "CASADA"]:
+   
+    tempo_casada = int(input("Quanto tempo de casada (anos)? "))
+    print("Nome: ", nome)
+    print("Sexo: ", sexo)
+    print("Estado civil: ", estado_civil)
+    print("Tempo casada: ", tempo_casada)
+ 
+else:
+    print("Nome: ", nome)
+    print("Sexo: ", sexo)
+    print("Estado civil: ", estado_civil)
+ 
+nome = input("Informe o seu nome: ")
+sexo = input("Informe o seu sexo (F ou H): ")
+estado_civil = input("Informe seu estado civil: ")
+ 
+ 
+if sexo == ("F" or "f") and estado_civil == ("casada" or "Casada" or "CASADA"):
+   
+    tempo_casada = int(input("Quanto tempo de casada (anos)? "))
+    print("Nome: ", nome)
+    print("Sexo: ", sexo)
+    print("Estado civil: ", estado_civil)
+    print("Tempo casada: ", tempo_casada)
+ 
+else:
+    print("Nome: ", nome)
+    print("Sexo: ", sexo)
+    print("Estado civil: ", estado_civil)
+ 
 
 
 
